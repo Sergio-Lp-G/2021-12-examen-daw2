@@ -3,7 +3,6 @@
  * @autor Angel profesor
  * 
  * 
- * 
  */
 
 public class Combinatoria
@@ -17,6 +16,7 @@ public class Combinatoria
 	
 	
 //	Calcula el factorial pero ya no se usa porque se vio que que el máximo de n es 12. Da error si no se recoge una excepción aritmética.
+@deprecated
 	public static int factorial(int n){}
 	
 	
