@@ -7,8 +7,14 @@
 
 public class Combinatoria
 {
+	/**
+	 * @param1 n 
+	 * @param2 m
+	 */
 //	Las combinaciones de n elementos tomados de m en m es el número de posibles muestras sin orden de m elementos distintos que se pueden extraer de un conjunto de n elementos. Debe cumplirse que n sea mayor o igual que m. Csub(n)super(m)=n!/(m!·(n-m)!)
-	public static long combinaciones(int n, int m){}
+	public static long combinaciones(int n, int m){
+
+	}
 	
 	
 //	Las combinaciones con repetición de n elementos tomados de m en m es el número de posibles muestras no ordenadas de m elementos no necesariamente distintos que se pueden extraer de un conjunto de n elementos. En este caso m puede ser mayor que n. CRsub(n)super(m)=(n+m-1)!/(m!·(n-1)!)
