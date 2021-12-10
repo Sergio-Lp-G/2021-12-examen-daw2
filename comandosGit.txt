@@ -1,0 +1,31 @@
+Primero hacemos un fork del repositorio
+Creamos la carpeta repositorio local y la establecemos como repositorio
+situandonos en la carpeta: 
+$ git init
+
+clonamos el repositorio indicado:
+$ git clone https://github.com/dawish21/2021-12-examen-daw2
+
+Creamos una nueva rama:
+$ git branch ramaMarkDown
+
+Cambiamos a rama ramaMarkDown
+$ git checkout ramaMarkDown
+
+creamos el archivo bbvaMarkDown.md manualmente n la carpeta.
+Como estamos en la rama ramaMarkDown con hacer git add se añade solo a la rama.
+$ git add bbvaMarkDown.md
+
+hay que hacer commit para que se guarden los cambios y git push para subirlo
+$ git commit -m "añadiendo bbva md"
+$ git push
+
+Nos posicionamos en la rama principal de nuevo
+$ git checkout main 
+
+Añadimos el documento comentado:
+$ git add Combinatoria.java
+
+Ahora tenemos dos ramas. Situandonos en la principal hacemos merge
+$ git merge ramaMarkDown
+
